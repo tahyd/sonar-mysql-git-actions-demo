@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SonarqubeMysqlDemoApplication {
     @GetMapping
 	public String index() {
-		return "Hello World !";
+		return "Hello World  welcome to sonar qube!";
 	}
 	private static final Logger LOGGER = LoggerFactory.getLogger(SonarqubeMysqlDemoApplication.class);
 	  public Environment getEnv() {
